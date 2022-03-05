@@ -1,0 +1,70 @@
+body{
+    background-color: black;
+}
+.centra{
+    text-align: center;
+}
+input:hover{
+background-color: red;
+animation: anim 1s infinite;
+}
+.folha{
+    text-align: left;
+    background-color: rgb(238, 79, 79);
+    border: groove 5px rgb(238, 79, 79);
+    border-radius: 30px;
+    position: fixed;
+    right: 33.333%;
+    height: 500px;
+    width: 500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@keyframes anim{
+    0%{
+        background-color: cyan;
+    }50%{
+        background-color: rgb(201, 199, 199);
+    }100%{
+        background-color: cyan;
+    }
+}
+.borda{
+    border: solid;
+}
+.rotina{
+    text-align: right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    grid-auto-flow: column;
+}
+.rotina:hover{
+    cursor: pointer;
+    animation: anim 1s infinite;
+}
+.info{
+    background-color: rgb(201, 199, 199);
+    position:fixed;
+    right: 34.9%;
+    height: 450px;
+    width: 450px;
+    border: solid;
+    border-radius: 3px;
+    
+}
+.lista{
+    background-color: rgb(218, 47, 47);
+    border: groove 5px rgb(218, 47, 47);
+    border-radius: 30px;
+    position: fixed;
+    right: 30px;
+    top: 30px;
+    height: 320px;
+    width: 320px;
+}
+.interno{
+    border: solid;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    margin: 8px;
+    width: 300px;
+    height: 300px;
+}
